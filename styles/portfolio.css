@@ -184,16 +184,45 @@ main>section {
     font-size: 16px;
     font-weight: 400;
 }
-.resumé-container{
+
+.resumé-container {
     display: flex;
     gap: 71px;
 }
-.resumé-container hr{
+
+.resumé-container hr {
     margin: 30px 0px;
 }
 
-.download-cv{
+.download-cv {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 113px;
+}
+
+/* footer section */
+
+footer {
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.form input[type="text"], .form input[type="email"], textarea {
+    display: block;
+    margin-bottom: 24px;
+    width: 100%;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    color: #757575;
+    padding: 18px 35px;
+}
+.social a{
+    margin-right: 24px;
 }
