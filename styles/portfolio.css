@@ -9,7 +9,7 @@ body {
 }
 
 .nav-title {
-    color: var(--dark-01, #181818);
+    color: #181818;
     font-size: 45px;
     font-weight: 800;
 }
@@ -98,7 +98,7 @@ a {
 }
 
 /*main section*/
-main{
+main {
     max-width: 1140px;
     margin: 0px auto;
 }
@@ -111,10 +111,30 @@ main{
     background-color: #FFF8F3;
     margin: 130px 0px;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-between;
 }
-.about-info{
+
+.about-info {
     text-align: center;
+}
+
+.info-name {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.info-title {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+}
+.section-description{
+    padding: 30px 150px;
+}
+.skill-container{
+    display: flex;
 }
