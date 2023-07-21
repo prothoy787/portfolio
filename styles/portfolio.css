@@ -175,10 +175,25 @@ main>section {
     color: #757575;
     font-size: 20px;
     font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .item-des {
     color: #757575;
     font-size: 16px;
     font-weight: 400;
+}
+.resumé-container{
+    display: flex;
+    gap: 71px;
+}
+.resumé-container hr{
+    margin: 30px 0px;
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 113px;
 }
