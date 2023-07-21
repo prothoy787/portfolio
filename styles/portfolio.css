@@ -1,32 +1,52 @@
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     margin: 0px 200px;
 }
-body{
+
+body {
     font-family: 'Open Sans', sans-serif;
 }
-.nav-title{
+
+.nav-title {
     color: var(--dark-01, #181818);
     font-size: 45px;
     font-weight: 800;
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-li{
+
+li {
     list-style: none;
     margin-right: 50px;
 }
-a{
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-message {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
+a {
     text-decoration: none;
     color: #181818;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
     background-color: #FD6E0A;
     border: 0;
@@ -34,13 +54,67 @@ a{
     color: white;
     font-weight: 700;
     padding: 15px 35px;
+    margin-top: 30px;
+    padding: 19px 17px 18px 51px;
 }
+
 /*header related styles*/
-.header{
+.header {
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 30px 30px;
+
+.banner {
+    padding: 30px 30px 0px 30px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.banner-name {
+    font-size: 85px;
+    font-weight: 800px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.message {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 400px;
+    color: #757575;
+}
+
+#download {
+    margin-right: 30px;
+}
+
+/*main section*/
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+
+/*about*/
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin: 130px 0px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+.about-info{
+    text-align: center;
 }
